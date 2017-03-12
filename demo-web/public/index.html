@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>测试界面</title>
+
+</head>
+
+<body>
+<p>这是个测试界面。</p>
+<div id="test"></div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	
+$(function(){
+
+	$.ajax({
+		method:'GET',
+		url:'/hello',
+		headers:{
+			'Service-Name':'HelloService'
+		},
+		success:function(data){
+			$("#test").text(data);
+		}
+	});
+});
+
+</script>
+</html>

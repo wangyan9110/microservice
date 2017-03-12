@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="jar://$MAVEN_REPOSITORY$/com/cainiao/globaladdressservice/globaladdressservice-client/1.2-SNAPSHOT/globaladdressservice-client-1.2-20161121.131848-9-sources.jar!/com/cainiao/globaldivision/client/service/GlobalDivisionService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework" charset="UTF-8" />
+  </component>
+</project>
